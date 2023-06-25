@@ -22,6 +22,8 @@ For a long time I wanted to become a frontend developer. and finally I took up m
 * HTML
 * CSS
 * JavaScript  [learnjavascript.ru](https://learn.javascript.ru/) in progress
+* Git
+* Gulp
 
 ---
 
@@ -46,4 +48,4 @@ alert( result );
 ---
 
 ## English
- A1 (I am constantly trying to improve my level of English. I use google translator a lot)
+ A2 (I am constantly trying to improve my level of English. I use google translator a lot)
