@@ -6,7 +6,6 @@
 
 ## Contacts
 * Location: Nizhny Novgorod, Russia
-* Phone: +7 910 872 77 65
 * Email: paradogss@mail.ru
 * GitHub: misterT1A
 
