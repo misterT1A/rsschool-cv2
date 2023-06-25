@@ -8,6 +8,8 @@
 * Location: Nizhny Novgorod, Russia
 * Email: paradogss@mail.ru
 * GitHub: misterT1A
+* Discord: 100kgofmeat
+* Telegram: @ArtemTaraskin
 
 ---
 
