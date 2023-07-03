@@ -3,9 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>hello</h1>
+<body id="body">
+    <header class="header">
+        <button id="burgerBtn" class="burger">
+            <span></span>
+        </button>
+        <nav id="burgerNav" class="nav">
+            <ul class="nav__list">
+                <li class="nav_item"><a href="#aboutMe">About me</a></li>
+                <li class="nav_item"><a href="#contacts">Contacts</a></li>
+                <li class="nav_item"><a href="#code">Code</a></li>
+                <li class="nav_item"><a href="#skills">Skills</a></li>
+                <li class="nav_item"><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__wrapper">
+            <div class="left__part">
+                <div class="left__photo">
+                    <img src="./img/photo.png" alt="photo" class="photo">
+                </div>
+                <section class="left__content">
+                    <div class="left__contacts">
+                        <h2 id="contacts" class="mini__title">My Contacts</h2>
+                        <ul class="contact_list">
+                            <li class="contact_item">
+                                Discord<br>
+                                100kgofmeat
+                            </li>
+                            <li class="contact_item">
+                                Address:<br>
+                                Russia, N.Novgorod
+                            </li>
+                            <li class="contact_item">
+                                Email:<br>
+                                <a href="mailto:paradogss@mail.ru">paradogss@mail.ru</a>
+                            </li>
+                        </ul>
+                        <h2 id="education" class="mini__title">Education</h2>
+                        <ul class="contact_list">
+                            <li class="contact_item">
+                                2007 - 2013<br>
+                                Nizhny Novgorod State Technical University | Nizhny Novgorod.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <section class="right__part">
+                <h1 class="right__title">Artem Taraskin</h1>
+                <h2 class="right__text">Front-End developer</h2>
+                <div id="aboutMe" class="about__me">
+                    <h2 class="mini__title title__right">About me</h2>
+                    <span class="description__text">
+                        I always wanted to become a frontend developer, so finally I took up my studies.
+                    </span>
+                </div>
+                <div id="skills" class="skills">
+                    <h2 class="mini__title title__right">Skills</h2>
+                    <div class="description__text">
+                        <ul class="skills__list">
+                            <li class="skills__item">HTML</li>
+                            <li class="skills__item">CSS</li>
+                            <li class="skills__item">JavaScript: learnjavascript.ru in progress</li>
+                            <li class="skills__item">Git</li>
+                            <li class="skills__item">Gulp</li>
+                            <li class="skills__item"> English: A2 (I am constantly improving my level)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="code" class="code__example">
+                    <h2 class="mini__title title__right">Code Example</h2>
+                    <code class="code">
+                    function multiply(a, b) { <br>
+                        return a * b;<br>
+                      }<br>
+                      <br>
+                      let result = multiply(1, 2);<br>
+                      alert( result );<br>
+                 </code>
+                </div>
+                <div class="my_projects">
+                    <h2 class="mini__title title__right">My projects</h2>
+                    <span>Empty :(</span>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a class="git__link" target="_blank" href="https://github.com/misterT1A">Mi GitHub</a>
+            </li>
+            <li class="footer__item">2023</li>
+            <li class="footer__item">
+                <a class="rs__link" target="_blank" href="https://rs.school/js/">
+                    <img src="./img/rs_school_js.svg" alt="rsLogo">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
